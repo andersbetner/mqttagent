@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
 	"github.com/eclipse/paho.mqtt.golang"
+	log "github.com/sirupsen/logrus"
 )
 
 // Agent runs an mqtt client
